@@ -86,9 +86,5 @@ This process is to add platform-tools to Path.
 
 
 
-* 
-
-
-
 
 
