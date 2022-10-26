@@ -81,7 +81,7 @@ This process is to add platform-tools to Path.
 * This will take a long time. Make sure that the final logs printed on the powershell say that the process was "successful". If it says that the process failed, contact the instructor.
 
 ## Testing React Native Sample App
-* To test the sample application, use the command: ```npx react-native start```
+* To test the sample application, use the command: ```npx react-native run-android```
 * This will start a new emulator window of a google/android phone and start a basic react native app. You will know it when you see it! :)
 
 
