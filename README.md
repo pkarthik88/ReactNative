@@ -99,6 +99,6 @@ Clone the repository into the docker container. Note that the docker container s
 
 
 # Final Submission
-* Please update App.js, IssueList.js and package.json files (and any other required files) into the repository. TAs will copy and paste these files into their setup to evaluate your project.
+* Please update App.js, IssueList.js and package.json files (and any other required files) into the ReactNativeClient/ folder in the repository. TAs will copy and paste these files into their setup to evaluate your project. You should not modify the ReactNativeServer folder at all.
 * Final submission is your github classroom repository. So, please make sure you make the commits on time.
 * Those new to git: Always remember, *add*, then *commit*, and then *push*
