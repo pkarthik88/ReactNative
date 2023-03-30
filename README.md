@@ -22,8 +22,8 @@ react-native is a Javascript library that we will be using for coding the react 
 chocolatey  1.3.1
 nodejs-lts 18.15.0
 microsoft-openjdk11 11.0.18
-python2 2.7.18
-```
+python2 2.7.18```
+
 * Set the JAVA_HOME Environment Variable. In my machine, I set JAVA_HOME as ```C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot```
 * Caution: You can uninstall any of the aforementioned programs using the command (e.g., for node): ```choco uninstall -y nodejs-lts``` if you find the need to uninstall later.
 
