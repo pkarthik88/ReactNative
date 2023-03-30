@@ -8,7 +8,7 @@ Chocolatey is a package manager on Windows to install and manage packages. We ca
 * You can install Chocolatey from: https://chocolatey.org/install 
 * Follow the instructions under **Install Chocolatey for Individual Use**.
 * Check choco version using the command: ```choco –version```
-* The recommended version is **chocolatey v1.3.1**
+* The recommended version is chocolatey v1.3.1.
 
 ## Node, python2 and OpenJDK
 
