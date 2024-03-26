@@ -90,7 +90,7 @@ This process is to add platform-tools to Path.
 ## Installing React Native
 * Open a new Powershell Terminal in normal mode (not administrator mode).
 * First uninstall any stale versions on your PC. ```npm uninstall -g react-native-cli @react-native-community/cli```
-* Install react native ```npx react-native@latest init AwesomeProject```
+* Install react native ```npx react-native@latest init AwesomeProject --version 0.72```
 * This command will automatically install React Native version 0.71.5 (Latest at the time of writing this document)
 * This will take a long time. Make sure that the final logs printed on the powershell say that the process was "successful". If it says that the process failed, contact the instructor.
 
