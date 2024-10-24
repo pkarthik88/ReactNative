@@ -9,10 +9,11 @@ Below instructions are adapted from https://dev-yakuza.posstree.com/en/react-nat
 ## Chocolatey
 Chocolatey is a package manager on Windows to install and manage packages. We can install packages simply on Windows via Chocolatey.
 
+* Open a windows powershell in administrator mode.
 * You can install Chocolatey from: https://chocolatey.org/install 
-* Follow the instructions under **Install Chocolatey for Individual Use**.
+* Follow the instructions under **Install Chocolatey for Individual Use**. Especially the one command that you must copy and paste into the windows powershell.
 * Check choco version using the command: ```choco –version```
-* The recommended version is chocolatey v1.3.1.
+* The recommended version is chocolatey v1.3.1. In 2024, the version is v2.3.0
 
 ## Node, python2 and OpenJDK
 
@@ -22,20 +23,26 @@ react-native is a Javascript library that we will be using for coding the react 
 * Execute the following chocolatey command to install Nodejs and OpenJDK: ```choco install -y nodejs-lts microsoft-openjdk11```
 * You can check the version of node and npm using commands: ```node --version``` and ```npm -v```
 * You can also install python2 using: ```choco install -y python2'''
-* To check the list of installed choco software, use the command: ```choco list --local-only```. The output for this on my machine looks like the following: ```
+* To check the list of installed choco software, use the command: ```choco list```. The output for this on my machine looks like the following: ```
 chocolatey  1.3.1
 nodejs-lts 18.15.0
 microsoft-openjdk11 11.0.18
 python2 2.7.18```
+* In 2024, this is what I get:
+Chocolatey v2.3.0
+chocolatey 2.3.0
+microsoft-openjdk11 11.0.24
+nodejs-lts 20.18.0
+python2 2.7.18
 
-* Set the JAVA_HOME Environment Variable. In my machine, I set JAVA_HOME as ```C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot```
+* Set the JAVA_HOME Environment Variable. To locate Java Home, first navigate to "C:\Program Files\Microsoft\". Find the path to the jdk. Earlier, in my machine, I set JAVA_HOME as ```C:\Program Files\Microsoft\jdk-11.0.18.10-hotspot```. In 2024, after installing the latest version of JDK 11, the path looks like "C:\Program Files\Microsoft\jdk-11.0.24.8-hotspot".
 * Caution: You can uninstall any of the aforementioned programs using the command (e.g., for node): ```choco uninstall -y nodejs-lts``` if you find the need to uninstall later.
 
 
 ## Android Studio Setup
 We need to install Android Studio for getting access to the tools required to install on Android physical device, and additionally, to get access to the android emulator. Click the link below to go to Android Studio site and download the installation file.
 
-* Android Studio: https://developer.android.com/studio. 
+* Android Studio: https://developer.android.com/studio. To install Android Giraffe, use the download link: https://developer.android.com/studio/archive
 * Download and install Android Studio. While on Android Studio installation wizard, make sure the boxes next to all of the following items are checked:
 * IF the installation asks for elevated permission to run the program **adb**, you can give this permission. 
 
