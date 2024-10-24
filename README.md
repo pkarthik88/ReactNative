@@ -1,4 +1,8 @@
 Below, you can find the installation instructions for Windows and MacOS (To be updated soon).
+# Notes
+1. Latest Android Studio version (e.g., Ladybug) may require Java 17, while older Android Studio (e.g., Giraffe that we have tested) will require Java 11.
+
+2. Make sure you can run the $javac --version command from your windows command line and check if the version displayed is correct.
 
 # ReactNative Installation (Windows)
 Below instructions are adapted from https://dev-yakuza.posstree.com/en/react-native/install-on-windows/ and https://reactnative.dev/docs/environment-setup.
