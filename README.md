@@ -92,7 +92,7 @@ This process is to add platform-tools to Path.
 ### Creating a Virtual Device (Pixel 5)
 * Open Android Studio and look for the top navigation bar.
 * Tools -> Device Manager
-* Create Device -> Phone -> Pixel 6 -> Next.
+* Create Device -> Phone -> Pixel 5 -> Next. (You can choose pixel 5 or pixel 6)
 * Select "Tiramisu" (API Level 33) -> Next
 * Show Advanced setting -> set SD Card (Studio Managed) to 2048 MB.
 * Finish
@@ -101,7 +101,7 @@ This process is to add platform-tools to Path.
 ## Installing React Native
 * Open a new Powershell Terminal in normal mode (not administrator mode).
 * First uninstall any stale versions on your PC. ```npm uninstall -g react-native-cli @react-native-community/cli```
-* Install react native ```npx react-native@latest init AwesomeProject --version 0.72```
+* Install react native ```npx react-native@0.72 init AwesomeProject --version 0.72```
 * This command will automatically install React Native version 0.71.5 (Latest at the time of writing this document)
 * This will take a long time. Make sure that the final logs printed on the powershell say that the process was "successful". If it says that the process failed, contact the instructor.
 
