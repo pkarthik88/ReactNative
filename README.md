@@ -5,7 +5,7 @@ Below, you can find the installation instructions for Windows and MacOS (To be u
 2. Make sure you can run the $javac --version command from your windows command line and check if the version displayed is correct.
 
 # ReactNative Installation (Windows)
-Below instructions are adapted from https://dev-yakuza.posstree.com/en/react-native/install-on-windows/ and https://reactnative.dev/docs/environment-setup.
+
 ## Chocolatey
 Chocolatey is a package manager on Windows to install and manage packages. We can install packages simply on Windows via Chocolatey.
 
@@ -125,4 +125,8 @@ Clone the repository into the docker container. Note that the docker container s
 * No need to clone this repository.
 * Copy the files App.js and IssueList.js into the AwesomeProject folder. 
 * You will be able to see the changes instantly on the Android emulator (if it was started already).
-* You are good to start coding Assignment 5!
+* You are good to start coding Assignment 4!
+
+### References
+Below instructions are adapted from https://dev-yakuza.posstree.com/en/react-native/install-on-windows/ and https://reactnative.dev/docs/environment-setup.
+
